@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APU Scholars Hub — Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-top">
+      <h1><i class="fas fa-graduation-cap"></i> APU <span class="accent">Scholars Hub</span></h1>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="section-tag">Get in Touch</div>
+    <h2><em>Contact</em> Us</h2>
+    <p>Have questions or want to connect? We'd love to hear from you.</p>
+  </section>
+
+  <main>
+    <div class="contact-wrapper">
+
+      <!-- Contact Info -->
+      <div class="contact-info fade-in-up">
+        <h3>Reach Us Directly</h3>
+        <p style="color: var(--text-muted); margin-bottom: 24px; font-size: 0.95rem;">
+          You can reach our team leaders directly via WhatsApp or phone, or write to our admin emails below.
+        </p>
+
+        <h3 style="margin-bottom: 14px; font-size:1.05rem;">📱 Phone / WhatsApp</h3>
+        <ul class="contact-info-list" style="margin-bottom: 30px;">
+          <li>
+            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <span class="ci-label">Shelton (President)</span>
+              <span class="ci-value">+48 576 548 342</span>
+            </div>
+          </li>
+          <li>
+            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <span class="ci-label">Ethan (Vice President)</span>
+              <span class="ci-value">+60 584 989 342</span>
+            </div>
+          </li>
+          <li>
+            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <span class="ci-label">Joyce (Lead Mentor)</span>
+              <span class="ci-value">+263 783 459 992</span>
+            </div>
+          </li>
+          <li>
+            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <span class="ci-label">Mustafa (Events)</span>
+              <span class="ci-value">+254 782 456 8</span>
+            </div>
+          </li>
+        </ul>
+
+        <h3 style="margin-bottom: 14px; font-size:1.05rem;">✉️ Administrative Emails</h3>
+        <ul class="contact-info-list">
+          <li>
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <span class="ci-label">Chief Administrator</span>
+              <span class="ci-value">admin@apu.edu.my</span>
+            </div>
+          </li>
+          <li>
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <span class="ci-label">Chief Member of Staff</span>
+              <span class="ci-value">staffemail@apu.edu.my</span>
+            </div>
+          </li>
+          <li>
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <span class="ci-label">Office Manager</span>
+              <span class="ci-value">managers@apu.edu.my</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-card fade-in-up">
+        <h3><i class="fas fa-paper-plane" style="color: var(--blue-bright); margin-right: 8px;"></i>Send Us a Message</h3>
+
+        <form id="contactin" novalidate>
+
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Ahmad Faiz" required>
+            <span class="field-error" id="name-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="yourname@mail.apu.edu.my" required>
+            <span class="field-error" id="email-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+            <span class="field-error" id="message-error"></span>
+          </div>
+
+          <button type="submit" class="btn" style="width: 100%; justify-content: center;">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+
+        <p id="formconfirmation">
+          <i class="fas fa-check-circle"></i> Your message has been sent successfully! We'll get back to you soon.
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 <span>APU Scholars Hub</span>. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
